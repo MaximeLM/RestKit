@@ -180,6 +180,8 @@
  */
 - (void)setWillSaveMappingContextBlock:(void (^)(NSManagedObjectContext *mappingContext))block;
 
+- (void)setWillSaveBlock:(void (^)(RKMappingResult *mappingResult))block;
+
 @end
 
 /**
